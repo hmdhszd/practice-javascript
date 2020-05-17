@@ -1,10 +1,11 @@
-var x = prompt("enter a number : ")
+for (var i = 0; i < 5; i++) {
+    console.log("the number is " + i)
+}
 
-while (x > 0) {
-    console.log(x + " is bigger than 0")
-    x -= 1
-    if (x == 1) {
-        console.log("it's ONE")
-        break;
-    }
+
+
+var myfullname = "hamid hosseinzadeh"
+
+for (var i = 0; i < myfullname.length; i++) {
+    console.log(myfullname[i])
 }
